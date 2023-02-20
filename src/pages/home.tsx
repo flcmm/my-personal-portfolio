@@ -6,7 +6,7 @@ import Certificates from '../components/certificate'
 const Home = () => {
   return (
     <div className="">
-      <div className="">
+      <div className="flex flex-row justify-evenly items-center">
         <Aside />
         <Hero />
       </div>

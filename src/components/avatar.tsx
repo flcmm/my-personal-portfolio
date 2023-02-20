@@ -5,20 +5,16 @@ import Me from '../assets/images/me.png'
 
 const Avatar = () => {
   return (
-    <div className="heroContainer">
-      <div className="heroBanner">
+    <div className="w-1/2 relative">
+      <div className="w-1/2">
         <img src={ Me } alt="me" />
       </div>
 
-      <div className="text">
-        <h1>REACT JS</h1>
-      </div>
-
-      <div className='react-icon-container'>
+      <div className='react-icon-container absolute top-0'>
         <img src={ reactIcon } alt="react logo" />
       </div>
 
-      <div className='nodejs-icon-container'>
+      <div className='nodejs-icon-container absolue top-0'>
         <img src={ nodeJSIcon } alt="NodeJS logo" />
       </div>
     </div>

@@ -21,17 +21,14 @@ const Aside = () => {
 
   return (
     <div className="asideCompContainer">
-      <div className="float">
-        <h3>WEBDEV/UI</h3>
-      </div>
       <div className="greetings">
-        <h2>Hello, I'm</h2>
-        <h1>&lt; FROILAN /&gt;</h1>
+        <h2 className="dark:text-white font-regular">Hello, I'm</h2>
+        <h1 className="font-bold dark:text-white text-2xl">&lt; FROILAN /&gt;</h1>
       </div>
 
       <div className="miniIntroduction">
-        <h2><span ref={referenceElement}></span></h2>
-        <h2>BASED IN CALOOCAN PHILIPPINES</h2>
+        <h2><span className="dark:text-white" ref={referenceElement}></span></h2>
+        <h2 className="dark:text-white">BASED IN CALOOCAN PHILIPPINES</h2>
       </div>
     </div>
   )

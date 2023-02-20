@@ -13,7 +13,7 @@ export const AppContext = createContext(null)
 function App() {
   return (
       <div className="max-w-full flex flex-col justify-start pt-10 items-center bg-zinc-900">
-        <div className="max-w-screen-xl flex flex-row justify-between items-center">
+        <div className="max-w-screen-lg w-11/12 flex flex-row justify-between items-center">
           <Logo />
             <Menu/>
           <Navigation />
