@@ -1,25 +1,27 @@
-import React, { createContext } from 'react'
+import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Navigation from './components/navigation'
+import Socials from './components/socials'
 import Logo from "./components/logo"
-import Menu from './components/menu'
+import Nav from './components/nav'
 import Home from './pages/home'
 import Services from './pages/services'
 import Works from './pages/works'
+import NavForLargeSC from './components/navforlargesc'
 import Contact from './pages/contact'
-
-export const AppContext = createContext(null)
 
 function App() {
   return (
-      <div className="max-w-full flex flex-col justify-start pt-10 items-center bg-zinc-900">
-        <div className="max-w-screen-lg w-11/12 flex flex-row justify-between items-center">
-          <Logo />
-            <Menu/>
-          <Navigation />
+      <div className="max-w-full flex flex-col justify-start items-center bg-zinc-900">
+        <div className="pt-4  w-11/12 flex flex-row">
+          <div className='flex flex-col justify-evenly gap-y-6'>
+            <Logo />
+            <Nav/>
+          </div>
+          <NavForLargeSC />
+          <Socials />
         </div>
 
-        <div className="main">
+        <div className="w-full">
           <Routes>
             <Route path='/' element={ <Home /> }/>
             <Route path='/services' element={ <Services /> }/>

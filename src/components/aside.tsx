@@ -1,7 +1,6 @@
 import React from "react"
 
 const Aside = () => {
-
   return (
     <div className="asideCompContainer">
       <div className="greetings">
