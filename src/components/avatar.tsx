@@ -5,17 +5,17 @@ import Me from '../assets/images/me.png'
 
 const Avatar = () => {
   return (
-    <div className="w-1/2 relative">
-      <div className="w-1/2">
-        <img src={ Me } alt="me" />
+    <div className="w-full flex justify-center items-center relative">
+      <div className="w-1/2 z-10">
+        <img className='w-full ' src={ Me } alt="me" />
       </div>
 
-      <div className='react-icon-container absolute top-0'>
-        <img src={ reactIcon } alt="react logo" />
+      <div className='react-icon-container absolute w-1/4 top-0 left-[25%] z-1'>
+        <img className='w-full' src={ reactIcon } alt="react logo" />
       </div>
 
-      <div className='nodejs-icon-container absolue top-0'>
-        <img src={ nodeJSIcon } alt="NodeJS logo" />
+      <div className='nodejs-icon-container absolute z-20 w-1/4 bottom-0 right-[15%]'>
+        <img className='w-full' src={ nodeJSIcon } alt="NodeJS logo" />
       </div>
     </div>
   )
