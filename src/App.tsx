@@ -11,7 +11,7 @@ import Contact from './pages/contact'
 
 function App() {
   return (
-      <div className="max-w-full flex flex-col justify-start items-center bg-zinc-900">
+      <div className="max-w-full flex flex-col justify-start items-center bg-slate-200 dark:bg-stone-800">
         <div className="pt-6 pb-10  w-11/12 flex flex-row">
           <div className='flex flex-col justify-evenly gap-y-6'>
             <Logo />
