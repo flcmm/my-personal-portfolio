@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Works = () => {
+const Projects = () => {
   return (
     <div className="workContainer">
       <h1>Coming Soon...</h1>
@@ -8,4 +8,4 @@ const Works = () => {
   )
 }
 
-export default Works
+export default Projects

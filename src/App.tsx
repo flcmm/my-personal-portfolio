@@ -3,11 +3,13 @@ import { Routes, Route } from 'react-router-dom'
 import Socials from './components/socials'
 import Logo from "./components/logo"
 import Nav from './components/nav'
+import About from './pages/about'
+import Expertise from './pages/expertise'
 import Home from './pages/home'
-import Services from './pages/services'
-import Works from './pages/works'
+import Projects from './pages/projects'
 import NavForLargeSC from './components/navforlargesc'
 import Contact from './pages/contact'
+import CTA4Mobile from './components/cta4small'
 
 function App() {
   return (
@@ -24,8 +26,9 @@ function App() {
         <div className="w-full">
           <Routes>
             <Route path='/' element={ <Home /> }/>
-            <Route path='/services' element={ <Services /> }/>
-            <Route path='/works' element={ <Works /> }/>
+            <Route path='/about' element={ <About /> }/>
+            <Route path='/expertise' element={ <Expertise /> }/>
+            <Route path='/projects' element={ <Projects /> }/>
             <Route path='/contact' element={ <Contact /> }/>
           </Routes>
         </div>

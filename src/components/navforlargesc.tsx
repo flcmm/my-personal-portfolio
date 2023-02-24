@@ -5,16 +5,16 @@ import { Link } from 'react-router-dom'
 const NavForLargeSC = () => {
   return (
     <div className="md:flex col-span-2 hidden flex-row justify-between items-center">
-      <Link to='/services'>
-        <h1 className='dark:text-slate-300 lg:text-xl md:text-lg font-medium'> Services</h1>
+      <Link to='/about'>
+        <h1 className='dark:text-slate-300 lg:text-xl md:text-lg font-medium'>About</h1>
       </Link>
-      <Link to='notes'>
-        <h1 className='dark:text-slate-300 lg:text-xl md:text-lg font-medium'> Notes</h1>
+      <Link to='/expertise'>
+        <h1 className='dark:text-slate-300 lg:text-xl md:text-lg font-medium'>Expertise</h1>
       </Link>
-      <Link to='works'>
-        <h1 className='dark:text-slate-300 lg:text-xl md:text-lg font-medium'> Works</h1>
+      <Link to='/projects'>
+        <h1 className='dark:text-slate-300 lg:text-xl md:text-lg font-medium'>Projects</h1>
       </Link>
-      <Link to='contact'>
+      <Link to='/contact'>
         <h1 className='dark:text-slate-300 lg:text-xl md:text-lg font-medium'>Contact</h1>
       </Link>
     </div>

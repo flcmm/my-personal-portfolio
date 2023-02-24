@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Services = () => {
+const Expertise = () => {
   return (
     <div className="servicesContainer">
       <h1>Coming Soon...</h1>
@@ -8,4 +8,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Expertise

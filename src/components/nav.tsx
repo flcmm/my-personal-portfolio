@@ -5,16 +5,16 @@ import { Link } from 'react-router-dom'
 const Nav = () => {
   return (
     <div className="md:hidden flex flex-row gap-x-5 justify-between items-center">
-      <Link to='/'>
+      <Link to='/about'>
         <h1 className='dark:text-slate-300 text-xs font-medium'>About</h1>
       </Link>
-      <Link to='expertise'>
+      <Link to='/expertise'>
         <h1 className='dark:text-slate-300 text-xs font-medium'>Expertise</h1>
       </Link>
-      <Link to='projects'>
+      <Link to='/projects'>
         <h1 className='dark:text-slate-300 text-xs font-medium'>Projects</h1>
       </Link>
-      <Link to='contact'>
+      <Link to='/contact'>
         <h1 className='dark:text-slate-300 text-xs font-medium'>Contact</h1>
       </Link>
     </div>
