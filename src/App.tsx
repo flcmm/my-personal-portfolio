@@ -11,6 +11,7 @@ import NavForLargeSC from './components/navforlargesc'
 import Contact from './pages/contact'
 import CTA4Mobile from './components/cta4small'
 import Footer from './components/footers'
+import NotFound from './pages/404'
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             <Route path='/expertise' element={ <Expertise /> }/>
             <Route path='/projects' element={ <Projects /> }/>
             <Route path='/contact' element={ <Contact /> }/>
+            <Route path='*' element={ <NotFound /> }/>
           </Routes>
         </div>
         <div className="w-full pt-10">
