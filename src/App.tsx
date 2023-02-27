@@ -10,6 +10,7 @@ import Projects from './pages/projects'
 import NavForLargeSC from './components/navforlargesc'
 import Contact from './pages/contact'
 import CTA4Mobile from './components/cta4small'
+import Footer from './components/footers'
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
             <Route path='/projects' element={ <Projects /> }/>
             <Route path='/contact' element={ <Contact /> }/>
           </Routes>
+        </div>
+        <div className="w-full pt-10">
+          <Footer />
         </div>
       </div>
   )
