@@ -1,4 +1,3 @@
-import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Socials from './components/socials'
 import Logo from "./components/logo"
@@ -35,7 +34,7 @@ function App() {
             <Route path='/*' element={ <NotFound /> }/>
           </Routes>
         </div>
-        <div className="w-full pt-10">
+        <div className="w-full">
           <Footer />
         </div>
       </div>
