@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useRef } from 'react'
 import Hero from "../components/avatar"
 import Aside from "../components/aside"
 import Certificates from '../components/certificate'
@@ -6,6 +6,16 @@ import { Link } from 'react-router-dom'
 import Mock from '../assets/images/mock-image.png'
 
 const Home = () => {
+  const [isHover, setHover] = useState(false)
+  // const textOne = useRef(null)
+  const mouseEnter = () => {
+    setHover(prevState => !prevState)
+    console.log(isHover)
+  }
+  const mouseLeave = () => {
+    setHover(prevState => !prevState)
+  }
+
   return (
     <div className="flex w-full flex-col">
       <div className="flex flex-col-reverse justify-center w-full gap-y-7 bg-slate-200 dark:bg-stone-800">
@@ -24,8 +34,15 @@ const Home = () => {
         </div>
 
         <div className='flex justify-center items-center'>
-          <div className="w-4/5 rounded-xl overflow-hidden">
-            <img className='w-full transition ease-in-out duration-300 scale-100 hover:scale-150' src={ Mock } alt="Mock Image" />
+          <div onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} className="w-4/5 rounded-xl relative overflow-hidden">
+            <img style={{transform: isHover ? 'scale(1)' : 'scale(1.5)' }} className='w-full cursor-pointer scale-100 ease-in-out duration-300' src={ Mock } alt="Mock Image" />
+            <div style={{opacity: isHover ? '0' : '1' }} className="backdrop-blur-sm duration-300 top-0 absolute w-full h-[999px]"></div>
+            <h1 style={{left: isHover ? '-10rem' : '5%'}} className='top-0 ease-in-out mt-4 duration-300 font-bold absolute  text-white'>Weather App</h1>
+            <p style={{left: isHover ? '-10rem' : '5%'}} className='absolute duration-300 ease-in-out text-white top-20'>Coming Soon...</p>
+            <svg onClick={() => {window.open('https://github.com/flcmm/weather-app', "_blank")}} style={{bottom: isHover ? '-5rem' : '1rem'}} className='absolute cursor-pointer duration-300 ease-in-out mr-5 right-0 bottom-0' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF">
+              <path d="M0 0h24v24H0V0z" fill="none"/>
+              <path d="M16.01 11H5c-.55 0-1 .45-1 1s.45 1 1 1h11.01v1.79c0 .45.54.67.85.35l2.78-2.79c.19-.2.19-.51 0-.71l-2.78-2.79c-.31-.32-.85-.09-.85.35V11z"/>
+            </svg>
           </div>
         </div>
       </div>
