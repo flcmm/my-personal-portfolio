@@ -15,7 +15,7 @@ import NotFound from './pages/404'
 function App() {
   return (
       <div className="max-w-full flex flex-col justify-start items-center bg-slate-200 dark:bg-stone-800">
-        <div className="pt-6 pb-10  w-11/12 grid grid-cols-2 grid-rows-2 md:grid-rows-1">
+        <div className="pt-6 pb-10  w-11/12 grid grid-cols-2 gap-y-2 grid-rows-2 md:grid-rows-1">
           <Logo />
           <Socials />
           <Nav/>
