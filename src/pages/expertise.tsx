@@ -8,12 +8,12 @@ const Expertise = () => {
 
         <div className="w-full grid grid-cols-2 gap-3 grid-flow-row grid-rows-3">
           <div className="flex text-left p-[5%] justify-evenly rounded-lg w-full bg-black dark:bg-white flex-col">
-            <h1>Title</h1>
-            <p>Source</p>
+            <h1>Intro to CSS</h1>
+            <p>TESDA</p>
             <div className="flex flex-row w-full justify-between">
-              <p className='justify-self-start'>Date</p>
+              <p className='justify-self-start'>04 - 15 - 2021</p>
               <div className='w-[15%] grid rounded-full place-content-center bg-white dark:bg-black '>
-                <svg className='fill-black w-full rounded-full dark:fill-white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000">
+                <svg onClick={ () => window.open('https://drive.google.com/file/d/1EF4D8QAUxrG5Arlft3V9neKnZisYR96n/view?usp=sharing', '_blank')} className='fill-black w-full rounded-full dark:fill-white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000">
                   <path d="M0 0h24v24H0V0z" fill="none"/>
                   <path d="M9.29 6.71c-.39.39-.39 1.02 0 1.41L13.17 12l-3.88 3.88c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l4.59-4.59c.39-.39.39-1.02 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z"/>
                 </svg>
@@ -22,12 +22,12 @@ const Expertise = () => {
           </div>
 
           <div className="flex text-left p-[5%] justify-evenly rounded-lg w-full bg-black dark:bg-white flex-col">
-            <h1>Title</h1>
-            <p>Source</p>
+            <h1>ZUITT - Coding Bootcamp</h1>
+            <p>ZUITT</p>
             <div className="flex flex-row w-full justify-between">
-              <p className='justify-self-start'>Date</p>
+              <p className='justify-self-start'>02 - 04 - 2023</p>
               <div className='w-[15%] grid rounded-full place-content-center bg-white dark:bg-black '>
-                <svg className='fill-black w-full rounded-full dark:fill-white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000">
+                <svg onClick={()=> window.open('https://drive.google.com/file/d/1ECvPujAHXynY2Q8zBbiy8EWYaQVfsQLW/view?usp=sharing', '_blank')} className='fill-black w-full rounded-full dark:fill-white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000">
                   <path d="M0 0h24v24H0V0z" fill="none"/>
                   <path d="M9.29 6.71c-.39.39-.39 1.02 0 1.41L13.17 12l-3.88 3.88c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l4.59-4.59c.39-.39.39-1.02 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z"/>
                 </svg>
@@ -36,12 +36,12 @@ const Expertise = () => {
           </div>
 
           <div className="flex text-left p-[5%] justify-evenly rounded-lg w-full bg-black dark:bg-white flex-col">
-            <h1>Title</h1>
-            <p>Source</p>
+            <h1>A User Research Method</h1>
+            <p>GDSC - PUP</p>
             <div className="flex flex-row w-full justify-between">
-              <p className='justify-self-start'>Date</p>
+              <p className='justify-self-start'>12 - 07 - 2022</p>
               <div className='w-[15%] grid rounded-full place-content-center bg-white dark:bg-black '>
-                <svg className='fill-black w-full rounded-full dark:fill-white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000">
+                <svg onClick={() => window.open('https://drive.google.com/file/d/149Z_90xneROjYE6n7MhRjDDD8F5qLFHv/view?usp=sharing', '_blank')} className='fill-black w-full rounded-full dark:fill-white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000">
                   <path d="M0 0h24v24H0V0z" fill="none"/>
                   <path d="M9.29 6.71c-.39.39-.39 1.02 0 1.41L13.17 12l-3.88 3.88c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l4.59-4.59c.39-.39.39-1.02 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z"/>
                 </svg>
@@ -50,12 +50,12 @@ const Expertise = () => {
           </div>
 
           <div className="flex text-left p-[5%] justify-evenly rounded-lg w-full bg-black dark:bg-white flex-col">
-            <h1>Title</h1>
-            <p>Source</p>
+            <h1>Inspiring Women In Data & AI</h1>
+            <p>GDSC - PUP</p>
             <div className="flex flex-row w-full justify-between">
-              <p className='justify-self-start'>Date</p>
+              <p className='justify-self-start'>12 - 10 - 2022</p>
               <div className='w-[15%] grid rounded-full place-content-center bg-white dark:bg-black '>
-                <svg className='fill-black w-full rounded-full dark:fill-white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000">
+                <svg onClick={() => window.open('https://drive.google.com/file/d/1KJ7tA8BpiMuyWgSaTRd2tSYS6P6b7Nxp/view?usp=sharing', '_blank')} className='fill-black w-full rounded-full dark:fill-white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000">
                   <path d="M0 0h24v24H0V0z" fill="none"/>
                   <path d="M9.29 6.71c-.39.39-.39 1.02 0 1.41L13.17 12l-3.88 3.88c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l4.59-4.59c.39-.39.39-1.02 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z"/>
                 </svg>
