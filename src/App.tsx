@@ -15,13 +15,12 @@ import NotFound from './pages/404'
 function App() {
   return (
       <div className="max-w-full flex flex-col justify-start items-center bg-slate-200 dark:bg-stone-800">
-        <div className="pt-6 pb-10  w-11/12 flex flex-row">
-          <div className='flex flex-col justify-evenly gap-y-6'>
-            <Logo />
-            <Nav/>
-          </div>
-          <NavForLargeSC />
+        <div className="pt-6 pb-10  w-11/12 grid grid-cols-2 grid-rows-2 md:grid-rows-1">
+          <Logo />
           <Socials />
+          <Nav/>
+          <NavForLargeSC />
+          <CTA4Mobile />
         </div>
 
         <div className="w-full">
