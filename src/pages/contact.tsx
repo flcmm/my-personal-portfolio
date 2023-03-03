@@ -2,10 +2,8 @@ import React from 'react'
 // figma.com/@frln
 const Contact = () => {
   return (
-    <div className="p-4 w-full flex flex-col gap-20 justify-center">
-      <div className='text-center w-11/12'>
-        <h1 className='font-black text-black text-3xl dark:text-white'>My Contacts</h1>
-      </div>
+    <div className="p-4 w-full flex flex-col gap-10 justify-center">
+      <h1 className='font-black text-black text-center text-4xl dark:text-white'>My Contacts</h1>
 
       <div className='gap-5 flex flex-col'>
         <h1 className='text-black text-2xl dark:text-white'>Phones & Socials</h1>
@@ -88,7 +86,7 @@ const Contact = () => {
         <h1 className='font-black text-black text-3xl dark:text-white'>Or</h1>
       </div>
 
-      <div className='flex flex-col justify-center items-center w-full text-center gap-5'>
+      <div className='flex flex-col justify-center items-center w-full text-center gap-10'>
         {/* <div className='flex text-center flex-col gap-3'>
           <h1 className='text-black dark:text-white font-medium'>Book An Audio Meeting Consultation</h1>
           <button>Book With Calendly</button>

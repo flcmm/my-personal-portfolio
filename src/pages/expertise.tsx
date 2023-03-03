@@ -4,7 +4,7 @@ const Expertise = () => {
   return (
     <div className="flex flex-col gap-10">
       <div className="flex flex-col text-center gap-5 px-5">
-        <h1 className='text-black dark:text-white font-black text-xl'>Certifications</h1>
+        <h1 className='text-black dark:text-white font-black text-4xl'>Certifications</h1>
 
         <div className="w-full grid grid-cols-2 gap-3 grid-flow-row grid-rows-3">
           <div className="flex text-left p-[5%] justify-evenly rounded-lg w-full bg-black dark:bg-white flex-col">
@@ -93,8 +93,8 @@ const Expertise = () => {
         </div>
       </div>
 
-      <div className="flex-flex-col text-center gap-5 px-5">
-        <h1 className='text-black dark:text-white text-xl font-black'>Experience</h1>
+      <div className="flex flex-col text-center gap-5 px-5">
+        <h1 className='text-black dark:text-white text-4xl font-black'>Experience</h1>
 
         <div className="flex-col gap-5 flex">
           <div className="relative">
