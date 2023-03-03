@@ -48,12 +48,72 @@ const Home = () => {
       </div>
 
       <div className="w-full flex flex-col bg-white dark:bg-stone-900 justify-center pt-7">
-        <div className='w-full pl-[3%]'>
+        <div className='w-full p-3 flex-col flex gap-4'>
           <h1 className='font-black text-4xl text-black dark:text-white'>Certificates</h1>
+
+          <div className="grid grid-cols-2 gap-4 grid-rows-2">
+            <div className="flex text-left p-[5%] justify-evenly rounded-lg w-full bg-black dark:bg-white flex-col">
+              <h1 className='text-white dark:text-black'>Intro to CSS</h1>
+              <p className='text-white dark:text-black'>TESDA</p>
+              <div className="flex flex-row w-full justify-between">
+                <p className='justify-self-start text-white dark:text-black'>04 - 15 - 2021</p>
+                <div className='w-[15%] grid rounded-full place-content-center bg-white dark:bg-black '>
+                  <svg onClick={ () => window.open('https://drive.google.com/file/d/1EF4D8QAUxrG5Arlft3V9neKnZisYR96n/view?usp=sharing', '_blank')} className='fill-black w-full rounded-full dark:fill-white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000">
+                    <path d="M0 0h24v24H0V0z" fill="none"/>
+                    <path d="M9.29 6.71c-.39.39-.39 1.02 0 1.41L13.17 12l-3.88 3.88c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l4.59-4.59c.39-.39.39-1.02 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex text-left p-[5%] justify-evenly rounded-lg w-full bg-black dark:bg-white flex-col">
+              <h1 className='text-white dark:text-black'>ZUITT - Coding Bootcamp</h1>
+              <p className='text-white dark:text-black'>ZUITT</p>
+              <div className="flex flex-row w-full justify-between">
+                <p className='justify-self-start text-white dark:text-black'>02 - 04 - 2023</p>
+                <div className='w-[15%] grid rounded-full place-content-center bg-white dark:bg-black '>
+                  <svg onClick={()=> window.open('https://drive.google.com/file/d/1ECvPujAHXynY2Q8zBbiy8EWYaQVfsQLW/view?usp=sharing', '_blank')} className='fill-black w-full rounded-full dark:fill-white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000">
+                    <path d="M0 0h24v24H0V0z" fill="none"/>
+                    <path d="M9.29 6.71c-.39.39-.39 1.02 0 1.41L13.17 12l-3.88 3.88c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l4.59-4.59c.39-.39.39-1.02 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex text-left p-[5%] justify-evenly rounded-lg w-full bg-black dark:bg-white flex-col">
+              <h1 className='text-white dark:text-black'>A User Research Method</h1>
+              <p className='text-white dark:text-black'>GDSC - PUP</p>
+              <div className="flex flex-row w-full justify-between">
+                <p className='justify-self-start text-white dark:text-black'>12 - 07 - 2022</p>
+                <div className='w-[15%] grid rounded-full place-content-center bg-white dark:bg-black '>
+                  <svg onClick={() => window.open('https://drive.google.com/file/d/149Z_90xneROjYE6n7MhRjDDD8F5qLFHv/view?usp=sharing', '_blank')} className='fill-black w-full rounded-full dark:fill-white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000">
+                    <path d="M0 0h24v24H0V0z" fill="none"/>
+                    <path d="M9.29 6.71c-.39.39-.39 1.02 0 1.41L13.17 12l-3.88 3.88c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l4.59-4.59c.39-.39.39-1.02 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex text-left p-[5%] justify-evenly rounded-lg w-full bg-black dark:bg-white flex-col">
+              <h1 className='text-white dark:text-black'>Inspiring Women In Data & AI</h1>
+              <p className='text-white dark:text-black'>GDSC - PUP</p>
+              <div className="flex flex-row w-full justify-between">
+                <p className='justify-self-star text-white dark:text-black'>12 - 10 - 2022</p>
+                <div className='w-[15%] grid rounded-full place-content-center bg-white dark:bg-black '>
+                  <svg onClick={() => window.open('https://drive.google.com/file/d/1KJ7tA8BpiMuyWgSaTRd2tSYS6P6b7Nxp/view?usp=sharing', '_blank')} className='fill-black w-full rounded-full dark:fill-white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000">
+                    <path d="M0 0h24v24H0V0z" fill="none"/>
+                    <path d="M9.29 6.71c-.39.39-.39 1.02 0 1.41L13.17 12l-3.88 3.88c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l4.59-4.59c.39-.39.39-1.02 0-1.41L10.7 6.7c-.38-.38-1.02-.38-1.41.01z"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div className='flex justify-center items-center pt-[10rem] pb-[10rem]'>
-          <h1 className='font-black text-lg text-black dark:text-white'>Coming Soon...</h1>
+        <div className='w-full grid place-content-center'>
+          <Link to={'/expertise'}>
+            <h1 className='text-white dark:text-black p-3 rounded-lg bg-black dark:bg-white'>View All</h1>
+          </Link>
         </div>
       </div>
 
@@ -69,7 +129,7 @@ const Home = () => {
         <div className="flex flex-row gap-4 justify-center items-center">
           <button onClick={() => {window.open('https://frlnaqn.medium.com/', "_blank")}} className='flex flex-row p-3 gap-4 border-none rounded-md bg-black dark:bg-white text-white dark:text-black'>
             View All On Medium
-            <svg xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><rect fill="none" height="24" width="24"/><path d="M9,6L9,6c0,0.56,0.45,1,1,1h5.59L4.7,17.89c-0.39,0.39-0.39,1.02,0,1.41h0c0.39,0.39,1.02,0.39,1.41,0L17,8.41V14 c0,0.55,0.45,1,1,1H18c0.55,0,1-0.45,1-1V6c0-0.55-0.45-1-1-1H10C9.45,5,9,5.45,9,6z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" className='fill-white dark:fill-dark'><rect fill="none" height="24" width="24"/><path d="M9,6L9,6c0,0.56,0.45,1,1,1h5.59L4.7,17.89c-0.39,0.39-0.39,1.02,0,1.41h0c0.39,0.39,1.02,0.39,1.41,0L17,8.41V14 c0,0.55,0.45,1,1,1H18c0.55,0,1-0.45,1-1V6c0-0.55-0.45-1-1-1H10C9.45,5,9,5.45,9,6z"/></svg>
           </button>
         </div>
       </div>

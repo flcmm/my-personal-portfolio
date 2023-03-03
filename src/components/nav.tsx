@@ -11,9 +11,6 @@ const Nav = () => {
       <Link to='/expertise'>
         <h1 className='dark:text-slate-300 text-xs font-medium'>Expertise</h1>
       </Link>
-      <Link to='/projects'>
-        <h1 className='dark:text-slate-300 text-xs font-medium'>Projects</h1>
-      </Link>
       <Link to='/contact'>
         <h1 className='dark:text-slate-300 text-xs font-medium'>Contact</h1>
       </Link>

@@ -30,7 +30,7 @@ function App() {
             <Route path='/expertise' element={ <Expertise /> }/>
             <Route path='/projects' element={ <Projects /> }/>
             <Route path='/contact' element={ <Contact /> }/>
-            <Route path='/*' element={ <NotFound /> }/>
+            <Route path='*' element={ <NotFound /> }/>
           </Routes>
         </div>
         <div className="w-full">
