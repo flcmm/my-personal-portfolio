@@ -117,15 +117,48 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="w-full flex flex-col bg-white dark:bg-stone-900 justify-center pt-7">
-        <div className='w-full pl-[3%]'>
+      <div className="w-full flex flex-col gap-4 items-center bg-white dark:bg-stone-900 justify-center p-4">
+        <div className='w-full'>
           <h1 className='font-black text-4xl text-black dark:text-white'>Blogs</h1>
         </div>
 
-        <div className='flex justify-center items-center pt-[10rem] pb-[10rem]'>
-          <h1 className='font-black text-lg text-black dark:text-white'>Coming Soon...</h1>
-        </div>
+        <div className="flex-col flex gap-3 w-full justify-center">
+          <div className="w-full flex flex-col gap-6 rounded-lg bg-black dark:bg-white p-5">
+            <div className="w-full flex-row justify-start">
+              <h1 className='dark:text-black text-white font-semibold'>froilan</h1>
+            </div>
 
+            <div className="flex-col flex gap-3">
+              <h1 className='text-white font-bold dark:text-black'>Title Here</h1>
+              <p className='text-white dark:text-black'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, possimus earum asperiores debitis id totam aut veritatis eius, nam aspernatur ullam ratione sed expedita praesentium accusamus harum dicta officiis quod explicabo quidem beatae adipisci assumenda nulla? Assumenda eligendi cumque, consequuntur obcaecati odit error ducimus commodi iure velit aspernatur aut ea eius eveniet saepe eos quam voluptate ut dolorum veniam. Id quae vel voluptatum distinctio eos quo, corporis voluptatem sequi laboriosam neque hic labore dolorum dolore.</p>
+              <p className="text-white dark:text-black text-right">12 - 01 - 2022</p>
+            </div>
+          </div>
+
+          <div className="w-full flex flex-col gap-6 rounded-lg bg-black dark:bg-white p-5">
+            <div className="w-full flex-row justify-start">
+              <h1 className='dark:text-black text-white font-semibold'>froilan</h1>
+            </div>
+
+            <div className="flex-col flex gap-3">
+              <h1 className='text-white font-bold dark:text-black'>Title Here</h1>
+              <p className='text-white dark:text-black'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, possimus earum asperiores debitis id totam aut veritatis eius, nam aspernatur ullam ratione sed expedita praesentium accusamus harum dicta officiis quod explicabo quidem beatae adipisci assumenda nulla? Assumenda eligendi cumque, consequuntur obcaecati odit error ducimus commodi iure velit aspernatur aut ea eius eveniet saepe eos quam voluptate ut dolorum veniam. Id quae vel voluptatum distinctio eos quo, corporis voluptatem sequi laboriosam neque hic labore dolorum dolore.</p>
+              <p className="text-white dark:text-black text-right">12 - 25 - 2022</p>
+            </div>
+          </div>
+
+          <div className="w-full flex flex-col gap-6 rounded-lg bg-black dark:bg-white p-5">
+            <div className="w-full flex-row justify-start">
+              <h1 className='dark:text-black text-white font-semibold'>froilan</h1>
+            </div>
+
+            <div className="flex-col flex gap-3">
+              <h1 className='text-white font-bold dark:text-black'>Title Here</h1>
+              <p className='text-white dark:text-black'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, possimus earum asperiores debitis id totam aut veritatis eius, nam aspernatur ullam ratione sed expedita praesentium accusamus harum dicta officiis quod explicabo quidem beatae adipisci assumenda nulla? Assumenda eligendi cumque, consequuntur obcaecati odit error ducimus commodi iure velit aspernatur aut ea eius eveniet saepe eos quam voluptate ut dolorum veniam. Id quae vel voluptatum distinctio eos quo, corporis voluptatem sequi laboriosam neque hic labore dolorum dolore.</p>
+              <p className="text-white dark:text-black text-right">12 - 30 - 2022</p>
+            </div>
+          </div>
+        </div>
         <div className="flex flex-row gap-4 justify-center items-center">
           <button onClick={() => {window.open('https://frlnaqn.medium.com/', "_blank")}} className='flex flex-row p-3 gap-4 border-none rounded-md bg-black dark:bg-white text-white dark:text-black'>
             View All On Medium
