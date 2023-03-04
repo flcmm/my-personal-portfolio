@@ -2,9 +2,8 @@ import React from 'react'
 // figma.com/@frln
 const Contact = () => {
   return (
-    <div className="p-4 w-full flex flex-col gap-10 justify-center">
+    <div className="px-5 w-full flex flex-col gap-10 justify-center">
       <h1 className='font-black text-black text-center text-4xl dark:text-white'>My Contacts</h1>
-
       <div className='gap-5 flex flex-col'>
         <h1 className='text-black text-2xl dark:text-white'>Phones & Socials</h1>
         <div className="flex flex-col gap-5">
