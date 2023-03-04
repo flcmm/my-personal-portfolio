@@ -93,7 +93,7 @@ const Expertise = () => {
         </div>
       </div>
 
-      <div className="flex flex-col text-center gap-5 px-5">
+      <div className="flex flex-col text-center gap-5">
         <h1 className='text-black dark:text-white text-4xl font-black'>Experience</h1>
 
         <div className="flex-col gap-5 flex">
