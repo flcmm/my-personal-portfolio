@@ -7,7 +7,7 @@ const Logo = () => {
       <Link to='/'>
         <h1 className="dark:text-white font-bold text-sm">Froilan.</h1>
       </Link>
-      <p className='dark:text-white text-[.5rem]'>FrontEnd Developer</p>
+      <p className='dark:text-white text-[.5rem] md:text-xs'>FrontEnd Developer</p>
     </div>
   )
 }

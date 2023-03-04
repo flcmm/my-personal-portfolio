@@ -8,10 +8,10 @@ const Footer = () => {
     source === "github" ? window.open(githubLink, "_blank") : (source === "igLink") ? window.open(igLink, "_blank") : window.open(linkedinLink, "_blank")
   }
   return (
-    <div className="px-[3%] py-3 w-full flex flex-row justify-between text-center items-center bg-slate-200 dark:bg-stone-800">
+    <div className="px-[3%] border-t-2 border-white py-3 w-full flex flex-row justify-between text-center items-center bg-slate-200 dark:bg-stone-800">
       <h1 className='text-black dark:text-white font-semibold'>Froilan.</h1>
 
-      <div className="flex justify-start flex-row items-center gap-2 w-1/4">
+      <div className="flex justify-start flex-row items-center gap-2 w-1/4 md:w-1/6">
         <svg onClick={() => openExternalLinkFooter('github')} className='w-1/4 fill-black dark:fill-white' viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <title>Github</title>
           <rect width="24" height="24" fill="none"/>

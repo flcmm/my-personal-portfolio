@@ -7,14 +7,16 @@ const Projects = () => {
       <h1 className='font-black dark:text-white text-black text-center text-4xl'>Projects</h1>
 
       <div className="w-full flex-col flex">
-        <div className="flex flex-col w-full items-center justify-center">
+        <div className="flex flex-col w-full items-center gap-1 justify-center">
           <h1 className='text-black dark:text-white font-semibold self-start'>Weather Web Application</h1>
           <div className="relative overflow-hidden">
             <img src={ WeatherImage } alt="" className="w-full rounded-lg" />
           </div>
-          <p className='font-semibold text-xs text-center text-white'>Dynamic Weather Application Using ReactJS</p>
+          <p className='font-semibold text-xs text-center text-black dark:text-white'>Dynamic Weather Application Using ReactJS</p>
         </div>
       </div>
+
+      <h1 className='font-black dark:text-white text-black text-center text-4xl'>More Projects Soon...</h1>
     </div>
   )
 }
