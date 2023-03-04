@@ -14,8 +14,8 @@ import NotFound from './pages/404'
 
 function App() {
   return (
-      <div className="max-w-full flex flex-col justify-start items-center bg-slate-200 dark:bg-stone-800">
-        <div className="pt-6 pb-10 w-11/12 grid md:flex md:flex-row md:justify-between grid-cols-2 gap-y-2 grid-rows-2">
+      <div className="max-w-full flex flex-col gap-5 justify-start items-center bg-slate-200 dark:bg-stone-800">
+        <div className="pt-6 pb-10 max-w-screen-lg w-11/12 grid md:flex md:flex-row md:justify-between grid-cols-2 gap-y-2 grid-rows-2">
           <Logo />
           <NavForLargeSC />
           <Socials />
@@ -23,7 +23,7 @@ function App() {
           <CTA4Mobile />
         </div>
 
-        <div className="w-full">
+        <div className="max-w-screen-lg w-full">
           <Routes>
             <Route path='/' element={ <Home /> }/>
             <Route path='/about' element={ <About /> }/>
@@ -33,7 +33,7 @@ function App() {
             <Route path='*' element={ <NotFound /> }/>
           </Routes>
         </div>
-        <div className="w-full">
+        <div className="max-w-screen-lg">
           <Footer />
         </div>
       </div>

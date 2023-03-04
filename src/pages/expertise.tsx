@@ -6,7 +6,7 @@ const Expertise = () => {
       <h1 className='text-black text-center dark:text-white font-black text-4xl'>Certifications</h1>
       <div className="flex flex-col gap-5">
 
-        <div className="w-full grid grid-cols-2 gap-3 grid-flow-row grid-rows-3">
+        <div className="w-full grid grid-cols-2 gap-3 grid-flow-row grid-rows-3 lg:grid-cols-3 lg:grid-rows-2">
           <div className="flex text-left p-[5%] justify-evenly rounded-lg w-full bg-black dark:bg-white flex-col">
             <h1 className='text-white dark:text-black'>Intro to CSS</h1>
             <p className='text-white dark:text-black'>TESDA</p>

@@ -49,7 +49,7 @@ const Home = () => {
         <div className='w-full  px-3 md:px-7 flex-col flex gap-4'>
           <h1 className='font-black text-4xl text-black dark:text-white'>Certificates</h1>
 
-          <div className="grid grid-cols-2 gap-4 grid-rows-2">
+          <div className="grid grid-cols-2 gap-4 lg:grid-rows-1 lg:grid-cols-4 grid-rows-2">
             <div className="flex text-left p-[5%] justify-evenly rounded-lg w-full bg-black dark:bg-white flex-col">
               <h1 className='text-white dark:text-black'>Intro to CSS</h1>
               <p className='text-white dark:text-black'>TESDA</p>
@@ -115,7 +115,7 @@ const Home = () => {
         <div className="w-full flex flex-col gap-4 items-start bg-white dark:bg-stone-900 px-3 md:px-7">
           <h1 className='font-black text-4xl text-black dark:text-white align-self-left'>Blogs</h1>
 
-          <div className="flex-col flex gap-3 w-full justify-center">
+          <div className="grid grid-cols-1 grid-rows-3 lg:grid-cols-3 lg:grid-rows-1 gap-3 w-full justify-center">
             <div className="w-full flex flex-col gap-6 rounded-lg bg-black dark:bg-white p-5">
               <div className="w-full flex-row justify-start">
                 <h1 className='dark:text-black text-white font-semibold'>froilan</h1>
@@ -123,7 +123,7 @@ const Home = () => {
 
               <div className="flex-col flex gap-3">
                 <h1 className='text-white font-bold dark:text-black'>Title Here</h1>
-                <p className='text-white dark:text-black'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, possimus earum asperiores debitis id totam aut veritatis eius, nam aspernatur ullam ratione sed expedita praesentium accusamus harum dicta officiis quod explicabo quidem beatae adipisci assumenda nulla? Assumenda eligendi cumque, consequuntur obcaecati odit error ducimus commodi iure velit aspernatur aut ea eius eveniet saepe eos quam voluptate ut dolorum veniam. Id quae vel voluptatum distinctio eos quo, corporis voluptatem sequi laboriosam neque hic labore dolorum dolore.</p>
+                <p className='text-white dark:text-black'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, impedit, praesentium nisi libero in sed mollitia itaque ducimus facilis, sequi iste? Eligendi, voluptates rerum, ea cumque, assumenda ab ipsum laboriosam nam quos voluptatum sed praesentium officia nostrum nihil numquam at...</p>
                 <p className="text-white dark:text-black text-right">12 - 01 - 2022</p>
               </div>
             </div>
@@ -135,7 +135,7 @@ const Home = () => {
 
               <div className="flex-col flex gap-3">
                 <h1 className='text-white font-bold dark:text-black'>Title Here</h1>
-                <p className='text-white dark:text-black'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, possimus earum asperiores debitis id totam aut veritatis eius, nam aspernatur ullam ratione sed expedita praesentium accusamus harum dicta officiis quod explicabo quidem beatae adipisci assumenda nulla? Assumenda eligendi cumque, consequuntur obcaecati odit error ducimus commodi iure velit aspernatur aut ea eius eveniet saepe eos quam voluptate ut dolorum veniam. Id quae vel voluptatum distinctio eos quo, corporis voluptatem sequi laboriosam neque hic labore dolorum dolore.</p>
+                <p className='text-white dark:text-black'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, impedit, praesentium nisi libero in sed mollitia itaque ducimus facilis, sequi iste? Eligendi, voluptates rerum, ea cumque, assumenda ab ipsum laboriosam nam quos voluptatum sed praesentium officia nostrum nihil numquam at...</p>
                 <p className="text-white dark:text-black text-right">12 - 25 - 2022</p>
               </div>
             </div>
@@ -147,7 +147,7 @@ const Home = () => {
 
               <div className="flex-col flex gap-3">
                 <h1 className='text-white font-bold dark:text-black'>Title Here</h1>
-                <p className='text-white dark:text-black'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, possimus earum asperiores debitis id totam aut veritatis eius, nam aspernatur ullam ratione sed expedita praesentium accusamus harum dicta officiis quod explicabo quidem beatae adipisci assumenda nulla? Assumenda eligendi cumque, consequuntur obcaecati odit error ducimus commodi iure velit aspernatur aut ea eius eveniet saepe eos quam voluptate ut dolorum veniam. Id quae vel voluptatum distinctio eos quo, corporis voluptatem sequi laboriosam neque hic labore dolorum dolore.</p>
+                <p className='text-white dark:text-black'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, impedit, praesentium nisi libero in sed mollitia itaque ducimus facilis, sequi iste? Eligendi, voluptates rerum, ea cumque, assumenda ab ipsum laboriosam nam quos voluptatum sed praesentium officia nostrum nihil numquam at...</p>
                 <p className="text-white dark:text-black text-right">12 - 30 - 2022</p>
               </div>
             </div>
@@ -163,5 +163,4 @@ const Home = () => {
     </div>
   )
 }
-
 export default Home
